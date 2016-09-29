@@ -300,16 +300,12 @@ create_database () {
   echo -e "${CYAN}Database $db_name created with user $db_user${NONE}"
 }
 
-
-
-
 # Make sure you're sudo.
 
 if [ "$(whoami)" != "root" ]; then
   echo -e "${RED}Root privileges are required to run this, try running with sudo...${NONE}"
   exit 2
 fi
-
 
 # Determine virtual host
 
@@ -324,7 +320,6 @@ echo ""
 echo ""
 
 select_site_type
-
 
 # Subdomain config 
 
@@ -383,13 +378,11 @@ if is_rails; then
   select_environment
 fi
 
-
 # Apache Host config
                    ###
 if is_subdomain; then domain="$site_url.$parent"; else domain="$site_url"; fi
 setup_vhosts
 append_to_host
-
 
 # Domain owner / Linux config
 
@@ -404,11 +397,9 @@ fi
 
 create_file_structure
 
-
 # Restart Montana's Apache Server
 
 restart_apache
-
 
 # Create MySQL Db
 
@@ -421,7 +412,6 @@ if [ $needs_db == "Y" ]; then
 else
   echo "Skipping MySQL Database"
 fi
-
 
 # Close out script 
 
