@@ -360,8 +360,6 @@ else
   fi
 fi
 
-
-
 # RailsApp config 
                           ###
 if is_rails; then
