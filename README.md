@@ -1,7 +1,7 @@
 # apache
-Bash scripts to manage Montana Mendy's Linux/Apache environments
+Bash scripts to manage my Linux/Apache environments. Easy shell script, needs rw privleges 
 
-Easy shell script, needs rw privleges 
-
-<pre>chmod 777
+<pre>
+cd .. 
+chmod 777
 ./montanapache.sh</pre>
