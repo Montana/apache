@@ -1,5 +1,5 @@
 # apache
-Bash scripts to manage my Linux/Apache environments. Easy shell script, needs rw privleges 
+Scripts to manage my Linux/Apache environments. Easy shell scripts, needs rw privleges 
 
 <pre>
 cd .. 
