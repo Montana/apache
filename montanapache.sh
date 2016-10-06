@@ -377,7 +377,7 @@ if is_rails; then
 fi
 
 # Apache Host config
-                   ###
+                  
 if is_subdomain; then domain="$site_url.$parent"; else domain="$site_url"; fi
 setup_vhosts
 append_to_host
@@ -395,9 +395,9 @@ fi
 
 create_file_structure
 
-# Restart Montana's Apache Server
+# Restart Montana's Apache Server and MySQL
 
-restart_apache
+restart_apache && restart_mysql 
 
 # Create MySQL Db
 
