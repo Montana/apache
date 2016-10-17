@@ -1,5 +1,5 @@
-# bash scripts for myself
-Some sccripts I use to manage my Linux/Apache environments. Easy shell scripts, needs rw privleges, thought I'd share might help somebody improve their workflow. 
+# Bash scripts for myself
+Some scripts I've written and use to manage my Linux/Apache environments. Easy shell scripts, needs rw privleges, thought I'd share might help somebody improve their workflow. 
 
 <pre>
 cd .. 
