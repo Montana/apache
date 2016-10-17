@@ -1,7 +1,7 @@
 # bash scripts for myself
-Scripts to manage my Linux/Apache environments. Easy shell scripts, needs rw privleges 
+Some sccripts I use to manage my Linux/Apache environments. Easy shell scripts, needs rw privleges, thought I'd share might help somebody improve their workflow. 
 
 <pre>
 cd .. 
 chmod 777
-./montanapache.sh</pre>
+./<enterscriptname>.sh</pre>
