@@ -4,4 +4,4 @@ Some sccripts I use to manage my Linux/Apache environments. Easy shell scripts, 
 <pre>
 cd .. 
 chmod 777
-./<enterscriptname>.sh</pre>
+./scriptname.sh</pre>
